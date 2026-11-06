@@ -1,2 +1,9 @@
-# video-telegram-bot
-Telegram bot for turning video links into detailed Arabic notes
+# بوت فيديو تيليجرام
+بوت يحول رابط فيديو يوتيوب إلى ملاحظات عربية مفصلة.
+
+## التشغيل
+1. `pip install -r requirements.txt`
+2. انسخ `.env.example` إلى `.env` واملأ التوكن والمفتاح (التوكن من @BotFather).
+3. `python bot.py`
+
+ملاحظة: يعمل مع الفيديوهات التي لها ترجمة مكتوبة (عربي أو إنجليزي).
